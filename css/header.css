@@ -103,6 +103,7 @@
    position: absolute;
    left: 0;
    top: 50px;
+   z-index: 3;
    background-color: var(--whiteColor);
    width: 300px;
    padding: 0 40px 20px 40px;
@@ -185,7 +186,7 @@
     }
     .header__burger{
         position: relative;
-        z-index: 3;
+        z-index: 4;
         display: flex;
         transform: translate(40px, 20px);
     }
