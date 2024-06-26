@@ -1,0 +1,19 @@
+
+.button {
+    margin-top: 20px;
+}
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.offers__button{
+    color: var( --whiteColor);
+    background-color: var(--darkEllow);
+    border: 2px solid  #904a05;
+    padding: 25px 60px;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
