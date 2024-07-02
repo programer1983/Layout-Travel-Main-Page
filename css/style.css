@@ -1,12 +1,12 @@
-@import "./reset.css";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
 
+@import "./reset.css";
 @import "./header.css";
 @import "./hero.css";
 @import "./offers.css";
 @import "./button.css";
 @import "./details.css";
-
+@import "./popular.css";
 
 @font-face {
     font-family: 'Arial-Bold';
@@ -36,15 +36,17 @@
  --monseratFont: "Montserrat", sans-serif;
  --arialFomtBold: 'Arial-Bold', sans-serif;
  --arialRegular: 'Arial-Regular', sans-serif;
+ --bodyBackground: #F3F5F7;
 }
 
 html{
-    
+
 }
 
 body{
     font-family: var(--monseratFont);
     color: var(--blackColor);
+    background-color: var(--bodyBackground);
 }
 [class*="__container"]{
     max-width: 1240px;

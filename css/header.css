@@ -1,5 +1,7 @@
 .header {
     padding-top: 30px;
+    background: var(--whiteColor);
+    padding-bottom: 30px;
 }
 .header__container {
     display: flex;
@@ -206,5 +208,9 @@
  @media (max-width: 480px){
     .header__burger{
         transform: translate(20px, 10px);
+    }
+    .header__logo-image {
+        width: 270px;
+        height: 100px;
     }
  }

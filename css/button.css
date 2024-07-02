@@ -16,4 +16,8 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    transition: background-color .3s ease;
+    &:hover{
+        background-color: #904a05;;
+    }
 }
