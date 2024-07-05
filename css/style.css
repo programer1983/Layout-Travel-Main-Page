@@ -7,6 +7,9 @@
 @import "./button.css";
 @import "./details.css";
 @import "./popular.css";
+@import "./hot.css";
+@import "./tours.css";
+@import "./questions.css";
 
 @font-face {
     font-family: 'Arial-Bold';
