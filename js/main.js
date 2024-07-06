@@ -1,5 +1,6 @@
 const nav = document.querySelector('.header__menu-list')
 const headerBurger = document.querySelector('.header__burger')
+const html = document.querySelector('html')
 
 
 
@@ -8,6 +9,7 @@ headerBurger.addEventListener('click', openNav)
 function openNav(){
     nav.classList.toggle('open-nav')
     headerBurger.classList.toggle('active')
+    html.classList.toggle('html-static')
 }
 
 

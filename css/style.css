@@ -10,6 +10,7 @@
 @import "./hot.css";
 @import "./tours.css";
 @import "./questions.css";
+@import "./footer.css";
 
 @font-face {
     font-family: 'Arial-Bold';
@@ -42,8 +43,8 @@
  --bodyBackground: #F3F5F7;
 }
 
-html{
-
+html.html-static{
+    overflow: hidden;
 }
 
 body{
